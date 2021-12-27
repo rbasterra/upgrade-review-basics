@@ -10,7 +10,6 @@ const movies = [
 
 let categories=[];
 
-
 for (let movie of movies){
     movie.categories.forEach(element =>{
         if (!categories.includes(element)){
